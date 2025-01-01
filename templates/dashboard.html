@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dashboard-container">
+            <h1>Welcome, {{ user.username }}</h1>
+            <div class="dashboard-buttons">
+                <a href="/view-attendance" class="btn">View Attendance</a>
+                <a href="/create-class" class="btn">Create Class</a>
+                <a href="/close-class" class="btn">Close Class</a>
+                <a href="/logout" class="btn">Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

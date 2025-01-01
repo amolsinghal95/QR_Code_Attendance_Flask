@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.navbar {
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.container {
+    padding-top: 20px;
+}
